@@ -1,0 +1,41 @@
+.btn-blue{
+  background-color: #6F916B;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.btn-blue:hover{
+
+  color:#6F916B; !important;
+  background-color: #f8f7f5; !important;
+}
+
+
+.title-green{
+
+  padding-top: 5px;
+  margin-left:  45px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  text-align: center ;
+  color: rgb(12,38,9);
+}
+
+
+@media (max-width: 540px) {
+
+  .btn-blue, .title-green {
+    font-size: 14px !important;
+
+  }
+
+
+  }
+
+

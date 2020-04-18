@@ -1,0 +1,31 @@
+@media (max-width: 960px) {
+
+  #responsive-design {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+
+  #responsive-design {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  #responsive-design {
+    width: 300px;
+
+  }
+
+  #responsive-design p, btn-blue {
+    font-size: 12px;
+  }
+
+  #responsive-design h1, h2,h3 {
+    font-size: 16px;
+  }
+
+
+
+}
+

@@ -1,0 +1,47 @@
+.banner{
+  background-image: linear-gradient(-225deg, rgba(242, 242, 242, .2) 0%, rgba(167, 204, 211, .3) 50%), url(../../images/banner.jpg);
+  color: white;
+  padding: 0px 0px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 650px;
+  margin: 0px 0px;
+
+}
+
+
+.banner h1{
+  padding-top: 100px;
+  margin-bottom: 10px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.banner h2{
+
+  font-size: 35px;
+  font-weight: lighter;
+  opacity: 0.8
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+
+  .banner h1 {
+    font-size: 30px !important;
+    margin: 0px auto;
+
+  }
+
+  .banner h1,h2,h3, title-green {
+    font-size: 15px !important;
+    margin: 0px auto;
+
+  }
+
+
+
+}
